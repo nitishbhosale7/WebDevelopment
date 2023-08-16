@@ -1,0 +1,55 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+Color
+Main: #087f5b
+Grey: #343a40
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    color: #343a40;
+    background-color: #e9ecef;
+}
+
+.container{
+  min-height: 700px;
+  display: flex;
+  align-content: center;
+}
+
+.component-body{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4%
+}
+
+.buttons{
+    padding: 10%;
+    border: 1px solid #087d5a;
+    color: #087d5a;
+    border-radius: 50%;
+}
+
+.buttons:hover{
+    background-color: #087f5b;
+    color: #e9ecef;
+}
+
+.page-numbers:hover{
+    background-color: #087d5a;
+    padding: 2%;
+    border-radius: 70%;
+    color: #e9ecef;
+}
